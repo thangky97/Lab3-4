@@ -24,6 +24,8 @@ import { PostDetailComponent } from './post-detail/post-detail.component';
 import { PostFormComponent } from './post-form/post-form.component';
 //add new
 import { ReactiveFormsModule } from '@angular/forms';
+import { ShowErrorComponent } from './componets/show-error/show-error.component';
+import { StatusBtnComponent } from './coponent/status-btn/status-btn.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +42,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     PostComponent,
     PostDetailComponent,
-    PostFormComponent
+    PostFormComponent,
+    ShowErrorComponent,
+    StatusBtnComponent
   ],
   imports: [
     ReactiveFormsModule,

@@ -28,7 +28,7 @@ export class StudentService {
     return this.http.post(apUrl, obj);
   }
 
-  updateStudent(id: number|string, obj: {name: string, class: string}) {
+  updateStudent(id: number|string, obj: any) {
     return this.http.put(`${apUrl}/${id}`, obj);
   }
 }

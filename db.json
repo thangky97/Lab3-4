@@ -3,22 +3,26 @@
     {
       "name": "Thang1",
       "class": "Web16304",
-      "id": 1
+      "id": 1,
+      "status": 0
     },
     {
       "id": 2,
       "name": "Thang1",
-      "class": "Web16304"
+      "class": "Web16304",
+      "status": 1
     },
     {
       "id": 3,
       "name": "Thang2",
-      "class": "Web16304"
+      "class": "Web16304",
+      "status": 1
     },
     {
       "name": "thangtv34",
       "class": "web16305",
-      "id": 4
+      "id": 4,
+      "status": 0
     }
   ],
   "posts": [
